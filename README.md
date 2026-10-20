@@ -65,7 +65,8 @@ powershell -ExecutionPolicy Bypass -File tools/walkthrough.ps1
 
 脚本：等设备 → `install -r` → `am start WebUiActivity` → 截屏 + 抓 `StarcloudWeb` 日志。
 
-**当前状态（2026-10-21）**：`adb devices` / `adb mdns services` 均为空，真机走查未执行。
+**当前状态（2026-10-21）**：真机未接入；已在 **x86_64 模拟器（nebula_api36）** 上跑通
+Web 壳与桥，见下方「模拟器走查结果」。
 
 不依赖设备、已完成的验证：
 
@@ -78,7 +79,20 @@ powershell -ExecutionPolicy Bypass -File tools/walkthrough.ps1
 | 桥协议（JS 侧） | Node 模拟原生跑通 request/reply、事件、错误码映射 |
 | React 产物 | Chromium 1280×800 无头渲染首页正常（mock 桥） |
 
-待真机确认：`versions.install`（组件包就位后装一个版本）、`launch.start`（拉起 SDL 活动）。
+### 模拟器走查结果（2026-10-21）
+
+模拟器 x86_64（`gradle :app:assembleDebug -PemuAbi` 打 x86_64 包）：
+
+| 项 | 结果 |
+| --- | --- |
+| Web 壳启动 | ✅ `am start WebUiActivity` 进入，React 首页完整渲染 |
+| 导航 / 页面 | ✅ 首页、版本、下载、存档均正常（数据来自真实桥：账户 Player、Java 未安装、清单 920 个版本） |
+| `catalog.versions` | ✅ 拉到 920 个版本；**发现 bug**：缺 `installed` 字段导致下载页 `TypeError`，已修 |
+| `versions.install` | ⚠ 桥链路通（返回结构化 `install-failed`），但模拟器网络被宿主机 TUN 代理掐断，实际下载未完成 |
+| `launch.start` | ⚠ 桥链路通（收到 `game.log` 事件 + `launch-failed`），失败原因是组件包未部署（`components/manifest.json` 不存在） |
+| 顺带发现 | **下载器 `USE_LOCAL_PROXY` 被写死为内网代理 `192.168.10.251:8889`**，会让所有真实用户下载失败，已改为默认关闭 |
+
+真机待确认：组件包部署后 `versions.install` 能真正装完、`launch.start` 能拉起 SDL 活动。
 
 渲染层调用 28 个桥方法，安卓已实现 8 个（catalog/install/launch/settings/saves 列表），
 其余 20 个（账号、内容库、Java、多人、Nova、插件、投影、备份删除、版本详情）返回
