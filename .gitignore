@@ -1,0 +1,33 @@
+# 构建产物
+**/bin/
+**/obj/
+**/build/
+.gradle/
+.kotlin/
+.idea/
+*.iml
+
+# 组件包（fetch-components.ps1 现场下载）
+**/assets/components/
+components/out/
+components/pkgs/
+**/runtime/
+
+# 本机配置
+local.properties
+
+# 反编译参考（第三方代码，不入库）
+spikes/fcl-src/
+
+# 二进制产物
+*.apk
+*.aab
+*.tar
+*.tar.xz
+*.zip
+*.binlog
+*.class
+*.dex
+
+# CMake/NDK 构建缓存
+**/.cxx/

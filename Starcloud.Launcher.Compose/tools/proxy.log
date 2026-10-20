@@ -1,0 +1,2138 @@
+[proxy] v9 listening on 0.0.0.0:8889 (curl upstream + fallback)
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:850249bb-401e-00a1-3660-57b186000'
+[proxy] 404 /v1/packages/702fe59163c6ee6578607daa85811d9bc9c7cc40/26.3.json <- https://piston-meta.mojang.com/v1/packages/702fe59163c6ee6578607daa85811d9bc9c7cc40/26.3.json via 2603:1061:14:184::1
+[body] b'Not Found'
+[proxy] 404 /v1/packages/702fe59163c6ee6578607daa85811d9bc9c7cc40/26.3.json <- https://bmclapi2.bangbang93.com/v1/packages/702fe59163c6ee6578607daa85811d9bc9c7cc40/26.3.json via 110.42.36.88
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:7210ddbb-f01e-0005-3761-573784000'
+[proxy] 404 /com/azure/azure-json/1.4.0/azure-json-1.4.0.jar <- https://libraries.minecraft.net/com/azure/azure-json/1.4.0/azure-json-1.4.0.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:a5308c21-501e-0057-1d61-57dd34000'
+[proxy] 404 /com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar <- https://libraries.minecraft.net/com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:2abbdd20-001e-0039-0561-578da8000'
+[proxy] 404 /com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar <- https://piston-data.mojang.com/maven/com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:10e6b0d1-c01e-0080-6261-5795fd000'
+[proxy] 404 /com/azure/azure-json/1.4.0/azure-json-1.4.0.jar <- https://piston-data.mojang.com/maven/com/azure/azure-json/1.4.0/azure-json-1.4.0.jar via 2603:1061:14:184::1
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar <- https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar via 2606:4700::6812:120c
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /com/azure/azure-json/1.4.0/azure-json-1.4.0.jar <- https://repo1.maven.org/maven2/com/azure/azure-json/1.4.0/azure-json-1.4.0.jar via 2606:4700::6812:120c
+[body] b'Not Found'
+[proxy] 404 /com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar <- https://bmclapi2.bangbang93.com/com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar via 114.66.27.53
+[body] b'Not Found'
+[proxy] 404 /com/azure/azure-json/1.4.0/azure-json-1.4.0.jar <- https://bmclapi2.bangbang93.com/com/azure/azure-json/1.4.0/azure-json-1.4.0.jar via 114.66.27.53
+[body] b'Not Found'
+[proxy] 404 /maven/com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar <- https://bmclapi2.bangbang93.com/maven/com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar via 114.66.27.53
+[body] b'Not Found'
+[proxy] 404 /maven/com/azure/azure-json/1.4.0/azure-json-1.4.0.jar <- https://bmclapi2.bangbang93.com/maven/com/azure/azure-json/1.4.0/azure-json-1.4.0.jar via 114.66.27.53
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar <- https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar via 2606:4700::6812:120c
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/com/azure/azure-json/1.4.0/azure-json-1.4.0.jar <- https://repo1.maven.org/maven2/com/azure/azure-json/1.4.0/azure-json-1.4.0.jar via 2606:4700::6812:120c
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:94caae89-901e-0058-7661-57ad12000'
+[proxy] 404 /maven/com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar <- https://libraries.minecraft.net/com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:9725e92b-e01e-004e-1e61-57f15c000'
+[proxy] 404 /maven/com/azure/azure-json/1.4.0/azure-json-1.4.0.jar <- https://libraries.minecraft.net/com/azure/azure-json/1.4.0/azure-json-1.4.0.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:f2ddceeb-d01e-0020-2c61-575875000'
+[proxy] 404 /com/google/code/gson/gson/2.14.0/gson-2.14.0.jar <- https://libraries.minecraft.net/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:8c44dce1-401e-004b-5a61-57891e000'
+[proxy] 404 /com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar <- https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:474b13d7-b01e-0069-6461-5782a6000'
+[proxy] 404 /com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar <- https://piston-data.mojang.com/maven/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:764338fc-201e-0087-1d61-57e5d1000'
+[proxy] 404 /com/google/code/gson/gson/2.14.0/gson-2.14.0.jar <- https://piston-data.mojang.com/maven/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar via 2603:1061:14:186::1
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /com/google/code/gson/gson/2.14.0/gson-2.14.0.jar <- https://repo1.maven.org/maven2/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar via 2606:4700::6812:120c
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar <- https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar via 2606:4700::6812:120c
+[body] b'Not Found'
+[proxy] 404 /com/google/code/gson/gson/2.14.0/gson-2.14.0.jar <- https://bmclapi2.bangbang93.com/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar via 114.66.61.173
+[body] b'Not Found'
+[proxy] 404 /com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar <- https://bmclapi2.bangbang93.com/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar via 114.66.61.173
+[body] b'Not Found'
+[proxy] 404 /maven/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar <- https://bmclapi2.bangbang93.com/maven/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar via 114.66.61.173
+[body] b'Not Found'
+[proxy] 404 /maven/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar <- https://bmclapi2.bangbang93.com/maven/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar via 114.66.61.173
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar <- https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar via 2606:4700::6812:120c
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar <- https://repo1.maven.org/maven2/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar via 2606:4700::6812:120c
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:93c142eb-601e-005f-6861-57c647000'
+[proxy] 404 /maven/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar <- https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:f5e46256-601e-0054-5f61-57de33000'
+[proxy] 404 /maven/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar <- https://libraries.minecraft.net/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:d1479911-101e-0032-3961-57e528000'
+[proxy] 404 /com/ibm/icu/icu4j/78.3/icu4j-78.3.jar <- https://libraries.minecraft.net/com/ibm/icu/icu4j/78.3/icu4j-78.3.jar via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:2a485998-d01e-004d-7b61-57f25b000'
+[proxy] 404 /com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar <- https://libraries.minecraft.net/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:9abe3ce8-401e-00d3-6661-57b6c9000'
+[proxy] 404 /com/ibm/icu/icu4j/78.3/icu4j-78.3.jar <- https://piston-data.mojang.com/maven/com/ibm/icu/icu4j/78.3/icu4j-78.3.jar via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:77b77ede-901e-001b-1261-5754f8000'
+[proxy] 404 /com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar <- https://piston-data.mojang.com/maven/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar via 2603:1061:14:186::1
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /com/ibm/icu/icu4j/78.3/icu4j-78.3.jar <- https://repo1.maven.org/maven2/com/ibm/icu/icu4j/78.3/icu4j-78.3.jar via 2606:4700::6812:120c
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar <- https://repo1.maven.org/maven2/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar via 2606:4700::6812:120c
+[body] b'Not Found'
+[proxy] 404 /com/ibm/icu/icu4j/78.3/icu4j-78.3.jar <- https://bmclapi2.bangbang93.com/com/ibm/icu/icu4j/78.3/icu4j-78.3.jar via 103.184.47.52
+[body] b'Not Found'
+[proxy] 404 /com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar <- https://bmclapi2.bangbang93.com/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar via 103.184.47.52
+[body] b'Not Found'
+[proxy] 404 /maven/com/mojang/authlib/10.0.77/authlib-10.0.77.jar <- https://bmclapi2.bangbang93.com/maven/com/mojang/authlib/10.0.77/authlib-10.0.77.jar via 103.184.47.52
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/com/mojang/authlib/10.0.77/authlib-10.0.77.jar <- https://repo1.maven.org/maven2/com/mojang/authlib/10.0.77/authlib-10.0.77.jar via 2606:4700::6812:120c
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:d938e532-401e-002e-0161-57b47e000'
+[proxy] 404 /maven/com/mojang/authlib/10.0.77/authlib-10.0.77.jar <- https://libraries.minecraft.net/com/mojang/authlib/10.0.77/authlib-10.0.77.jar via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:f5139feb-001e-005c-1c61-57b007000'
+[proxy] 404 /com/mojang/authlib/10.0.77/authlib-10.0.77.jar <- https://libraries.minecraft.net/com/mojang/authlib/10.0.77/authlib-10.0.77.jar via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:f9ca9cac-801e-00d3-1761-57aa86000'
+[proxy] 404 /com/mojang/authlib/10.0.77/authlib-10.0.77.jar <- https://piston-data.mojang.com/maven/com/mojang/authlib/10.0.77/authlib-10.0.77.jar via 2603:1061:14:186::1
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /com/mojang/authlib/10.0.77/authlib-10.0.77.jar <- https://repo1.maven.org/maven2/com/mojang/authlib/10.0.77/authlib-10.0.77.jar via 2606:4700::6812:120c
+[body] b'Not Found'
+[proxy] 404 /com/mojang/authlib/10.0.77/authlib-10.0.77.jar <- https://bmclapi2.bangbang93.com/com/mojang/authlib/10.0.77/authlib-10.0.77.jar via 110.42.36.88
+[body] b'Not Found'
+[proxy] 404 /maven/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar <- https://bmclapi2.bangbang93.com/maven/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar via 110.42.36.88
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar <- https://repo1.maven.org/maven2/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar via 2606:4700::6812:120c
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:1d6ce1b9-401e-0029-4561-574b39000'
+[proxy] 404 /maven/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar <- https://libraries.minecraft.net/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:75bed9e2-d01e-002b-7e61-57f581000'
+[proxy] 404 /com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar <- https://libraries.minecraft.net/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:f3a192d2-501e-00ba-0561-575e94000'
+[proxy] 404 /com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar <- https://piston-data.mojang.com/maven/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar via 2603:1061:14:186::1
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar <- https://repo1.maven.org/maven2/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar via 2606:4700::6812:120c
+[body] b'Not Found'
+[proxy] 404 /com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar <- https://bmclapi2.bangbang93.com/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar via 110.42.36.88
+[body] b'Not Found'
+[proxy] 404 /maven/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar <- https://bmclapi2.bangbang93.com/maven/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar via 103.184.47.52
+[body] b'Not Found'
+[proxy] 404 /maven/com/ibm/icu/icu4j/78.3/icu4j-78.3.jar <- https://bmclapi2.bangbang93.com/maven/com/ibm/icu/icu4j/78.3/icu4j-78.3.jar via 103.184.47.52
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar <- https://repo1.maven.org/maven2/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar via 2606:4700::6812:120c
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/com/ibm/icu/icu4j/78.3/icu4j-78.3.jar <- https://repo1.maven.org/maven2/com/ibm/icu/icu4j/78.3/icu4j-78.3.jar via 2606:4700::6812:120c
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:438ef2bb-f01e-002c-5f61-5799e2000'
+[proxy] 404 /maven/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar <- https://libraries.minecraft.net/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:55a74139-101e-0046-3761-5741ca000'
+[proxy] 404 /maven/com/ibm/icu/icu4j/78.3/icu4j-78.3.jar <- https://libraries.minecraft.net/com/ibm/icu/icu4j/78.3/icu4j-78.3.jar via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:c81226cd-c01e-0034-4661-579b11000'
+[proxy] 404 /com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar <- https://libraries.minecraft.net/com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:57efd9a8-701e-00d8-7e61-574da2000'
+[proxy] 404 /com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar <- https://piston-data.mojang.com/maven/com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar via 2603:1061:14:186::1
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar <- https://repo1.maven.org/maven2/com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar via 2606:4700::6812:120c
+[body] b'Not Found'
+[proxy] 404 /com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar <- https://bmclapi2.bangbang93.com/com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar via 110.42.36.88
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:a4e6f9b2-301e-000a-5261-5741e8000'
+[proxy] 404 /com/mojang/brigadier/1.3.11/brigadier-1.3.11.jar <- https://libraries.minecraft.net/com/mojang/brigadier/1.3.11/brigadier-1.3.11.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:456cda24-f01e-001a-3861-57da35000'
+[proxy] 404 /com/mojang/brigadier/1.3.11/brigadier-1.3.11.jar <- https://piston-data.mojang.com/maven/com/mojang/brigadier/1.3.11/brigadier-1.3.11.jar via 2603:1061:14:186::1
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /com/mojang/brigadier/1.3.11/brigadier-1.3.11.jar <- https://repo1.maven.org/maven2/com/mojang/brigadier/1.3.11/brigadier-1.3.11.jar via 2606:4700::6812:120c
+[body] b'Not Found'
+[proxy] 404 /com/mojang/brigadier/1.3.11/brigadier-1.3.11.jar <- https://bmclapi2.bangbang93.com/com/mojang/brigadier/1.3.11/brigadier-1.3.11.jar via 110.42.41.39
+[body] b'Not Found'
+[proxy] 404 /maven/com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar <- https://bmclapi2.bangbang93.com/maven/com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar via 103.184.47.52
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar <- https://repo1.maven.org/maven2/com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar via 2606:4700::6812:120c
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:4531dfee-a01e-0043-0361-579311000'
+[proxy] 404 /maven/com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar <- https://libraries.minecraft.net/com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:823f094f-d01e-0064-6961-578419000'
+[proxy] 404 /com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar <- https://libraries.minecraft.net/com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:86a67d72-501e-0046-2461-574233000'
+[proxy] 404 /com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar <- https://piston-data.mojang.com/maven/com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar via 2603:1061:14:186::1
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar <- https://repo1.maven.org/maven2/com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar via 2606:4700::6812:120c
+[body] b'Not Found'
+[proxy] 404 /com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar <- https://bmclapi2.bangbang93.com/com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar via 110.42.41.39
+[body] b'Not Found'
+[proxy] 404 /maven/com/mojang/brigadier/1.3.11/brigadier-1.3.11.jar <- https://bmclapi2.bangbang93.com/maven/com/mojang/brigadier/1.3.11/brigadier-1.3.11.jar via 110.42.36.88
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/com/mojang/brigadier/1.3.11/brigadier-1.3.11.jar <- https://repo1.maven.org/maven2/com/mojang/brigadier/1.3.11/brigadier-1.3.11.jar via 2606:4700::6812:120c
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:47517ea1-301e-0008-0f61-572fca000'
+[proxy] 404 /maven/com/mojang/brigadier/1.3.11/brigadier-1.3.11.jar <- https://libraries.minecraft.net/com/mojang/brigadier/1.3.11/brigadier-1.3.11.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:7aa1f9e2-f01e-004e-2061-575bc5000'
+[proxy] 404 /com/mojang/jtracy/1.14.38/jtracy-1.14.38.jar <- https://libraries.minecraft.net/com/mojang/jtracy/1.14.38/jtracy-1.14.38.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:3c6f4220-d01e-008c-0961-5702f5000'
+[proxy] 404 /com/mojang/jtracy/1.14.38/jtracy-1.14.38.jar <- https://piston-data.mojang.com/maven/com/mojang/jtracy/1.14.38/jtracy-1.14.38.jar via 2603:1061:14:184::1
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /com/mojang/jtracy/1.14.38/jtracy-1.14.38.jar <- https://repo1.maven.org/maven2/com/mojang/jtracy/1.14.38/jtracy-1.14.38.jar via 2606:4700::6812:120c
+[body] b'Not Found'
+[proxy] 404 /com/mojang/jtracy/1.14.38/jtracy-1.14.38.jar <- https://bmclapi2.bangbang93.com/com/mojang/jtracy/1.14.38/jtracy-1.14.38.jar via 110.42.41.39
+[body] b'Not Found'
+[proxy] 404 /maven/com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar <- https://bmclapi2.bangbang93.com/maven/com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar via 110.42.36.88
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar <- https://repo1.maven.org/maven2/com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar via 2606:4700::6812:120c
+[body] b'Not Found'
+[proxy] 404 /maven/com/mojang/logging/1.7.12/logging-1.7.12.jar <- https://bmclapi2.bangbang93.com/maven/com/mojang/logging/1.7.12/logging-1.7.12.jar via 110.42.41.39
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:2dc729d0-f01e-0037-7f61-579816000'
+[proxy] 404 /maven/com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar <- https://libraries.minecraft.net/com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar via 2603:1061:14:184::1
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/com/mojang/logging/1.7.12/logging-1.7.12.jar <- https://repo1.maven.org/maven2/com/mojang/logging/1.7.12/logging-1.7.12.jar via 2606:4700::6812:120c
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:9e5b4fed-701e-000f-3361-57d94f000'
+[proxy] 404 /maven/com/mojang/logging/1.7.12/logging-1.7.12.jar <- https://libraries.minecraft.net/com/mojang/logging/1.7.12/logging-1.7.12.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:63e3ac37-a01e-0021-3961-575136000'
+[proxy] 404 /com/mojang/logging/1.7.12/logging-1.7.12.jar <- https://libraries.minecraft.net/com/mojang/logging/1.7.12/logging-1.7.12.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:617f1b61-301e-0040-2261-57718c000'
+[proxy] 404 /com/mojang/logging/1.7.12/logging-1.7.12.jar <- https://piston-data.mojang.com/maven/com/mojang/logging/1.7.12/logging-1.7.12.jar via 2603:1061:14:184::1
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /com/mojang/logging/1.7.12/logging-1.7.12.jar <- https://repo1.maven.org/maven2/com/mojang/logging/1.7.12/logging-1.7.12.jar via 2606:4700::6812:120c
+[body] b'Not Found'
+[proxy] 404 /com/mojang/logging/1.7.12/logging-1.7.12.jar <- https://bmclapi2.bangbang93.com/com/mojang/logging/1.7.12/logging-1.7.12.jar via 110.42.41.39
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:6edcc4f1-a01e-0006-1461-57c3c1000'
+[proxy] 404 /com/mojang/jtracy/1.14.38/jtracy-1.14.38-natives-linux.jar <- https://libraries.minecraft.net/com/mojang/jtracy/1.14.38/jtracy-1.14.38-natives-linux.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:bd98d9e0-801e-0010-5961-577e82000'
+[proxy] 404 /com/mojang/jtracy/1.14.38/jtracy-1.14.38-natives-linux.jar <- https://piston-data.mojang.com/maven/com/mojang/jtracy/1.14.38/jtracy-1.14.38-natives-linux.jar via 2603:1061:14:184::1
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /com/mojang/jtracy/1.14.38/jtracy-1.14.38-natives-linux.jar <- https://repo1.maven.org/maven2/com/mojang/jtracy/1.14.38/jtracy-1.14.38-natives-linux.jar via 2606:4700::6812:130c
+[body] b'Not Found'
+[proxy] 404 /com/mojang/jtracy/1.14.38/jtracy-1.14.38-natives-linux.jar <- https://bmclapi2.bangbang93.com/com/mojang/jtracy/1.14.38/jtracy-1.14.38-natives-linux.jar via 110.42.41.39
+[body] b'Not Found'
+[proxy] 404 /maven/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar <- https://bmclapi2.bangbang93.com/maven/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar via 110.42.41.39
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar <- https://repo1.maven.org/maven2/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar via 2606:4700::6812:130c
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:500e7258-d01e-006f-7161-579c6d000'
+[proxy] 404 /maven/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar <- https://libraries.minecraft.net/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar via 2603:1061:14:184::1
+[body] b'Not Found'
+[proxy] 404 /maven/com/mojang/jtracy/1.14.38/jtracy-1.14.38.jar <- https://bmclapi2.bangbang93.com/maven/com/mojang/jtracy/1.14.38/jtracy-1.14.38.jar via 110.42.41.39
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/com/mojang/jtracy/1.14.38/jtracy-1.14.38.jar <- https://repo1.maven.org/maven2/com/mojang/jtracy/1.14.38/jtracy-1.14.38.jar via 2606:4700::6812:130c
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:fde213ff-701e-0032-4861-57753a000'
+[proxy] 404 /com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar <- https://libraries.minecraft.net/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:2e491c5a-201e-0017-6b61-57f4da000'
+[proxy] 404 /maven/com/mojang/jtracy/1.14.38/jtracy-1.14.38.jar <- https://libraries.minecraft.net/com/mojang/jtracy/1.14.38/jtracy-1.14.38.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:1e7a9703-501e-0014-4361-572294000'
+[proxy] 404 /com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar <- https://piston-data.mojang.com/maven/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar via 2603:1061:14:184::1
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar <- https://repo1.maven.org/maven2/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar via 2606:4700::6812:130c
+[body] b'Not Found'
+[proxy] 404 /com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar <- https://bmclapi2.bangbang93.com/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar via 110.42.41.39
+[body] b'Not Found'
+[proxy] 404 /maven/com/mojang/jtracy/1.14.38/jtracy-1.14.38-natives-linux.jar <- https://bmclapi2.bangbang93.com/maven/com/mojang/jtracy/1.14.38/jtracy-1.14.38-natives-linux.jar via 110.42.41.39
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/com/mojang/jtracy/1.14.38/jtracy-1.14.38-natives-linux.jar <- https://repo1.maven.org/maven2/com/mojang/jtracy/1.14.38/jtracy-1.14.38-natives-linux.jar via 2606:4700::6812:130c
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:32ac3a40-e01e-0028-1d61-574306000'
+[proxy] 404 /maven/com/mojang/jtracy/1.14.38/jtracy-1.14.38-natives-linux.jar <- https://libraries.minecraft.net/com/mojang/jtracy/1.14.38/jtracy-1.14.38-natives-linux.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:f2de983b-d01e-0020-0661-575875000'
+[proxy] 404 /com/mojang/patchy/2.2.10/patchy-2.2.10.jar <- https://libraries.minecraft.net/com/mojang/patchy/2.2.10/patchy-2.2.10.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:96a53c9e-f01e-0040-3c61-576dc3000'
+[proxy] 404 /com/mojang/patchy/2.2.10/patchy-2.2.10.jar <- https://piston-data.mojang.com/maven/com/mojang/patchy/2.2.10/patchy-2.2.10.jar via 2603:1061:14:184::1
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /com/mojang/patchy/2.2.10/patchy-2.2.10.jar <- https://repo1.maven.org/maven2/com/mojang/patchy/2.2.10/patchy-2.2.10.jar via 2606:4700::6812:130c
+[body] b'Not Found'
+[proxy] 404 /com/mojang/patchy/2.2.10/patchy-2.2.10.jar <- https://bmclapi2.bangbang93.com/com/mojang/patchy/2.2.10/patchy-2.2.10.jar via 114.66.26.18
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:016afb96-b01e-0012-1e61-570e9d000'
+[proxy] 404 /commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar <- https://libraries.minecraft.net/commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar via 2603:1061:14:184::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:da5caa53-901e-00bd-4361-57ffa9000'
+[proxy] 404 /commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar <- https://piston-data.mojang.com/maven/commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar via 2603:1061:14:184::1
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar <- https://repo1.maven.org/maven2/commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar via 2606:4700::6812:130c
+[body] b'Not Found'
+[proxy] 404 /commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar <- https://bmclapi2.bangbang93.com/commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar via 114.66.26.18
+[body] b'Not Found'
+[proxy] 404 /maven/com/mojang/patchy/2.2.10/patchy-2.2.10.jar <- https://bmclapi2.bangbang93.com/maven/com/mojang/patchy/2.2.10/patchy-2.2.10.jar via 110.42.41.39
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/com/mojang/patchy/2.2.10/patchy-2.2.10.jar <- https://repo1.maven.org/maven2/com/mojang/patchy/2.2.10/patchy-2.2.10.jar via 2606:4700::6812:120c
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:3dea3c1c-a01e-001e-3861-579995000'
+[proxy] 404 /maven/com/mojang/patchy/2.2.10/patchy-2.2.10.jar <- https://libraries.minecraft.net/com/mojang/patchy/2.2.10/patchy-2.2.10.jar via 2603:1061:14:184::1
+[body] b'Not Found'
+[proxy] 404 /assets/5f/5ff04807c356f1beed0b86ccf659b44b9983e3fa <- https://bmclapi2.bangbang93.com/assets/5f/5ff04807c356f1beed0b86ccf659b44b9983e3fa via 114.66.26.18
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:8332e408-c01e-0040-7761-576512000'
+[proxy] 404 /assets/5f/5ff04807c356f1beed0b86ccf659b44b9983e3fa <- https://resources.download.minecraft.net/assets/5f/5ff04807c356f1beed0b86ccf659b44b9983e3fa via 150.171.110.101
+[body] b'Not Found'
+[proxy] 404 /assets/80/8030dd9dc315c0381d52c4782ea36c6baf6e8135 <- https://bmclapi2.bangbang93.com/assets/80/8030dd9dc315c0381d52c4782ea36c6baf6e8135 via 114.66.26.18
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:74a8a922-a01e-0079-6d61-579e0e000'
+[proxy] 404 /assets/80/8030dd9dc315c0381d52c4782ea36c6baf6e8135 <- https://resources.download.minecraft.net/assets/80/8030dd9dc315c0381d52c4782ea36c6baf6e8135 via 2603:1061:14:163::1
+[body] b'Not Found'
+[proxy] 404 /maven/commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar <- https://bmclapi2.bangbang93.com/maven/commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar via 110.42.41.39
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar <- https://repo1.maven.org/maven2/commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar via 2606:4700::6812:120c
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:500e761a-d01e-006f-6761-579c6d000'
+[proxy] 404 /maven/commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar <- https://libraries.minecraft.net/commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar via 2603:1061:14:186::1
+[body] b'Not Found'
+[proxy] 404 /assets/b6/b62ca8ec10d07e6bf5ac8dae0c8c1d2e6a1e3356 <- https://bmclapi2.bangbang93.com/assets/b6/b62ca8ec10d07e6bf5ac8dae0c8c1d2e6a1e3356 via 114.66.26.18
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:9ca40914-a01e-00a2-3761-575833000'
+[proxy] 404 /assets/b6/b62ca8ec10d07e6bf5ac8dae0c8c1d2e6a1e3356 <- https://resources.download.minecraft.net/assets/b6/b62ca8ec10d07e6bf5ac8dae0c8c1d2e6a1e3356 via 150.171.110.135
+[body] b'Not Found'
+[proxy] 404 /assets/af/af96f55a90eaf11b327f1b5f8834a051027dc506 <- https://bmclapi2.bangbang93.com/assets/af/af96f55a90eaf11b327f1b5f8834a051027dc506 via 114.66.26.18
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:87799947-701e-0027-0561-5775ee000'
+[proxy] 404 /assets/af/af96f55a90eaf11b327f1b5f8834a051027dc506 <- https://resources.download.minecraft.net/assets/af/af96f55a90eaf11b327f1b5f8834a051027dc506 via 2603:1061:14:16a::1
+[body] b'Not Found'
+[proxy] 404 /maven/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar <- https://bmclapi2.bangbang93.com/maven/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar via 114.66.26.18
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar <- https://repo1.maven.org/maven2/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar via 2606:4700::6812:130c
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:75510635-b01e-005f-0161-57c171000'
+[proxy] 404 /maven/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar <- https://libraries.minecraft.net/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar via 2603:1061:14:186::1
+[body] b'Not Found'
+[proxy] 404 /assets/b8/b80b6e9ff01c78c624df5429e1d3dcd3d5130834 <- https://bmclapi2.bangbang93.com/assets/b8/b80b6e9ff01c78c624df5429e1d3dcd3d5130834 via 103.184.47.54
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:d0c6e78f-101e-0088-8061-578723000'
+[proxy] 404 /assets/b8/b80b6e9ff01c78c624df5429e1d3dcd3d5130834 <- https://resources.download.minecraft.net/assets/b8/b80b6e9ff01c78c624df5429e1d3dcd3d5130834 via 2603:1061:14:186::1
+[body] b'Not Found'
+[proxy] 404 /maven/io/netty/netty-buffer/4.2.16.Final/netty-buffer-4.2.16.Final.jar <- https://bmclapi2.bangbang93.com/maven/io/netty/netty-buffer/4.2.16.Final/netty-buffer-4.2.16.Final.jar via 114.66.26.18
+[body] b'Not Found'
+[proxy] 404 /assets/f0/f00657542252858a721e715a2e888a9226404e35 <- https://bmclapi2.bangbang93.com/assets/f0/f00657542252858a721e715a2e888a9226404e35 via 103.184.47.54
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 /maven/io/netty/netty-buffer/4.2.16.Final/netty-buffer-4.2.16.Final.jar <- https://repo1.maven.org/maven2/io/netty/netty-buffer/4.2.16.Final/netty-buffer-4.2.16.Final.jar via 2606:4700::6812:130c
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:7b8f4df3-101e-0053-4f61-57411e000'
+[proxy] 404 /assets/f0/f00657542252858a721e715a2e888a9226404e35 <- https://resources.download.minecraft.net/assets/f0/f00657542252858a721e715a2e888a9226404e35 via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:fbdde14a-501e-003a-0361-57771a000'
+[proxy] 404 /maven/io/netty/netty-buffer/4.2.16.Final/netty-buffer-4.2.16.Final.jar <- https://libraries.minecraft.net/io/netty/netty-buffer/4.2.16.Final/netty-buffer-4.2.16.Final.jar via 2603:1061:14:186::1
+[body] b'Not Found'
+[proxy] 404 /assets/95/958d57021d8009de55d6e9e19957a72545e3c30c <- https://bmclapi2.bangbang93.com/assets/95/958d57021d8009de55d6e9e19957a72545e3c30c via 103.184.47.54
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:0aacb9a0-d01e-0058-3161-578751000'
+[proxy] 404 /assets/95/958d57021d8009de55d6e9e19957a72545e3c30c <- https://resources.download.minecraft.net/assets/95/958d57021d8009de55d6e9e19957a72545e3c30c via 2603:1061:14:186::1
+[body] b'Not Found'
+[proxy] 404 /assets/94/949afe72d4d3d785dab52d8baaefeb0e38b3c067 <- https://bmclapi2.bangbang93.com/assets/94/949afe72d4d3d785dab52d8baaefeb0e38b3c067 via 103.184.47.54
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:02e5955f-f01e-0090-6c61-575844000'
+[proxy] 404 /assets/94/949afe72d4d3d785dab52d8baaefeb0e38b3c067 <- https://resources.download.minecraft.net/assets/94/949afe72d4d3d785dab52d8baaefeb0e38b3c067 via 2603:1061:14:186::1
+[body] b'Not Found'
+[proxy] 404 /assets/9f/9f84f917a09facacf1235eed3fa77789e4554afb <- https://bmclapi2.bangbang93.com/assets/9f/9f84f917a09facacf1235eed3fa77789e4554afb via 222.186.52.172
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:fcc83f33-c01e-00c2-2b61-571988000'
+[proxy] 404 /assets/9f/9f84f917a09facacf1235eed3fa77789e4554afb <- https://resources.download.minecraft.net/assets/9f/9f84f917a09facacf1235eed3fa77789e4554afb via 2603:1061:14:184::1
+[body] b'Not Found'
+[proxy] 404 /assets/df/df274fe57c49ef1af6d218703d805db76a5c8af9 <- https://bmclapi2.bangbang93.com/assets/df/df274fe57c49ef1af6d218703d805db76a5c8af9 via 222.186.52.172
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:b5c4e394-b01e-0065-4461-57cc6e000'
+[proxy] 404 /assets/df/df274fe57c49ef1af6d218703d805db76a5c8af9 <- https://resources.download.minecraft.net/assets/df/df274fe57c49ef1af6d218703d805db76a5c8af9 via 150.171.110.135
+[body] b'Not Found'
+[proxy] 404 /assets/26/26ad18d9f4ef0a71255459b5f01b738b81dbc7dc <- https://bmclapi2.bangbang93.com/assets/26/26ad18d9f4ef0a71255459b5f01b738b81dbc7dc via 222.186.52.172
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:6d992500-f01e-0039-2461-579936000'
+[proxy] 404 /assets/26/26ad18d9f4ef0a71255459b5f01b738b81dbc7dc <- https://resources.download.minecraft.net/assets/26/26ad18d9f4ef0a71255459b5f01b738b81dbc7dc via 2603:1061:14:184::1
+[body] b'Not Found'
+[proxy] 404 /assets/65/65ebca3306ccd6d7f9d5de8f1cc7a1216d80246d <- https://bmclapi2.bangbang93.com/assets/65/65ebca3306ccd6d7f9d5de8f1cc7a1216d80246d via 222.186.52.172
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:d5ce222b-b01e-0071-1461-57b925000'
+[proxy] 404 /assets/65/65ebca3306ccd6d7f9d5de8f1cc7a1216d80246d <- https://resources.download.minecraft.net/assets/65/65ebca3306ccd6d7f9d5de8f1cc7a1216d80246d via 2603:1061:14:184::1
+[body] b'Not Found'
+[proxy] 404 /assets/40/402ded0eebd448033ef415e861a17513075f80e7 <- https://bmclapi2.bangbang93.com/assets/40/402ded0eebd448033ef415e861a17513075f80e7 via 222.186.52.172
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:80763179-201e-0048-6961-577f1d000'
+[proxy] 404 /assets/40/402ded0eebd448033ef415e861a17513075f80e7 <- https://resources.download.minecraft.net/assets/40/402ded0eebd448033ef415e861a17513075f80e7 via 2603:1061:14:184::1
+[body] b'Not Found'
+[proxy] 404 /assets/cc/ccd5ac4767ce0a9c71d1dd62f2dc25449789b5dd <- https://bmclapi2.bangbang93.com/assets/cc/ccd5ac4767ce0a9c71d1dd62f2dc25449789b5dd via 110.42.35.94
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:7612710e-001e-0074-0361-576bfe000'
+[proxy] 404 /assets/cc/ccd5ac4767ce0a9c71d1dd62f2dc25449789b5dd <- https://resources.download.minecraft.net/assets/cc/ccd5ac4767ce0a9c71d1dd62f2dc25449789b5dd via 2603:1061:14:184::1
+[body] b'Not Found'
+[proxy] 404 /assets/db/db5582c177aca966ba1a9b062cead233a262a939 <- https://bmclapi2.bangbang93.com/assets/db/db5582c177aca966ba1a9b062cead233a262a939 via 110.42.35.94
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:52990c12-501e-0099-2561-571d97000'
+[proxy] 404 /assets/db/db5582c177aca966ba1a9b062cead233a262a939 <- https://resources.download.minecraft.net/assets/db/db5582c177aca966ba1a9b062cead233a262a939 via 2603:1061:14:186::1
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:77fee3bd-a01e-0021-0eec-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:f1ae786f-a01e-00b9-35ec-576ee1000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.36.88
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 53357)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:fac03dd5-f01e-002c-6fef-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:47319702-e01e-0080-4def-5744ec000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[proxy] 0 / <- https://repo1.maven.org/maven2/ via ?
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 62598)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:6e6dff00-301e-002a-6df2-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:1bdab15f-601e-0100-13f2-5794f6000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[proxy] 0 / <- https://repo1.maven.org/maven2/ via ?
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59785)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:d11f6e1e-a01e-0008-56f5-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:d996642e-401e-001f-41f5-5708ee000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[proxy] 0 / <- https://repo1.maven.org/maven2/ via ?
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 57257)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:6ef3b8bf-e01e-0026-46f7-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:ffffbded-701e-00c8-08f7-5788ca000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.36.88
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 62509)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:04a88a1d-b01e-005d-36fa-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:8e921855-e01e-004b-43fa-5747b9000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.51.76
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 56612)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:51b2b37c-101e-0056-38fd-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:8c053cdf-501e-00e7-29fd-575410000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 114.66.61.173
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61854)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:1e8cadde-b01e-0019-1f00-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:d6d9c124-301e-00f1-3000-58a2c7000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[proxy] 0 / <- https://repo1.maven.org/maven2/ via ?
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 56905)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:870eb311-001e-0073-4a03-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:b2e16ca1-801e-00c3-3003-586fee000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[proxy] 0 / <- https://repo1.maven.org/maven2/ via ?
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 62688)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:2ba791cc-301e-000a-1005-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:87164cfb-c01e-00cd-2305-585a11000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[proxy] 0 / <- https://repo1.maven.org/maven2/ via ?
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 64351)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:eafe210d-101e-0046-1808-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:add782e7-301e-0022-5d08-58b3ab000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.10.72
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 51241)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:9f2c479d-501e-003a-240b-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:96bc53a5-301e-000d-110b-58be60000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.51.76
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 63401)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:c880d2e2-a01e-006c-0b0e-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:a24fcd77-701e-0014-080e-58f385000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 222.186.52.172
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 65079)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:3ae47967-501e-0013-4111-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:f626aa69-501e-00bd-1e11-58e3e6000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 103.184.47.54
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61342)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:42d55370-501e-0031-1e13-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:f413a800-c01e-005c-1b13-58eeb2000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 103.184.47.54
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 57661)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:b0e38627-501e-0033-1316-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:fcfbc650-701e-0013-4916-584ef7000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 114.66.61.173
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59207)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:becd0b6a-f01e-0051-2a19-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:eb4ba975-b01e-00ba-5c19-5893ca000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[proxy] 0 / <- https://repo1.maven.org/maven2/ via ?
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 56209)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:120ba055-c01e-000e-6d1c-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:7d84b0d4-301e-003d-661c-581ce0000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[proxy] 0 / <- https://repo1.maven.org/maven2/ via ?
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 60138)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:b9b7085e-101e-001b-371e-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:03ddecea-301e-0012-261e-58112b000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.35.94
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 55913)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:4070dcdd-501e-0025-1921-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:f21da432-d01e-010a-3621-582c0e000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.10.72
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 57679)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:8c7977dc-901e-000e-2524-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.105
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:b74a94a9-701e-0092-0224-583f3c000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 103.184.47.54
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 50694)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:fad1ad38-401e-0064-3127-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:24729714-e01e-00d5-1f27-589939000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.10.72
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 56407)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:4a2114be-f01e-0071-712a-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:92f232c4-201e-00b0-552a-58fa23000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.45.187
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 65274)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:40736a6d-501e-0025-7c2c-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.98
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:e7abb06e-501e-00cf-322c-58e4a9000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.35.94
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 52638)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:5fe43a86-501e-000c-122f-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:31bdeeee-a01e-0062-452f-58a8dc000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 114.66.15.169
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59247)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:205afa69-e01e-0001-7c32-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:f36c8413-b01e-010c-1032-581fb1000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.45.187
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 63062)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:690c6bed-201e-0058-4a35-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:b7d81228-601e-0042-5f35-58d37b000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.106
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 114.66.59.147
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 63935)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:fcded160-c01e-001d-7438-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.104
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:65954a00-701e-001c-6038-5824d4000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 103.184.47.58
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 63360)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:4d410a98-a01e-000e-403a-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:19ab3539-d01e-00a4-683a-58b24c000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.35.94
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61431)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:f26503ef-401e-005b-4f3d-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:4c3051a1-b01e-003c-103d-585f73000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.35.94
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 55746)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:4837a712-701e-0032-1340-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:6aa041f7-f01e-003d-6a40-5800af000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.101
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 103.184.47.52
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 52188)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:28250fa3-a01e-0055-5543-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:cc604f7c-701e-0023-6d43-58ec77000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 103.184.47.58
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 54760)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:17164df3-701e-006f-6f46-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.106
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:2cf9b9a4-801e-00f3-7646-58cd6e000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.103
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 103.184.47.59
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 65084)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:c9f0eafd-c01e-006c-7a48-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:8921ddfc-901e-00b2-0648-58958a000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.51.76
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 53077)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:d7eb55f2-c01e-006a-164b-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:85e503bf-a01e-0096-254b-58632a000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.45.187
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 58145)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:399b532f-c01e-000e-3d4e-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:87060558-201e-00fd-6e4e-5835cf000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.45.187
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 50187)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:8095780d-f01e-003c-1051-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:1323ddf9-e01e-007c-6051-58584b000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 103.184.47.59
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 55950)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:fb73a181-601e-0039-4d54-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:dd27264e-401e-00fb-5e54-580670000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 222.186.52.172
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 62533)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:f2fee5a8-201e-0006-5256-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:56d3e844-001e-00c5-3d56-58910f000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 114.66.26.18
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 53036)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:40d6bc60-d01e-002b-6559-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:ffdde86f-f01e-0060-4c59-580a2b000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.10.72
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59477)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:9d826302-601e-005f-5f5c-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:e0ad0131-b01e-00aa-385c-5856a2000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.100
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.10.72
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61603)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:fdfadaaf-b01e-0030-1e5f-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:4e007967-901e-010b-775f-5873d2000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.41.39
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 56470)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:5cb811c2-e01e-0028-6161-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:17f17ae1-601e-007d-2861-581bd8000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 222.186.52.172
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59412)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:d303d77e-601e-0011-5164-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:baff92ae-501e-0082-2264-582b45000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 222.186.52.172
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 64005)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:cb3b50f5-201e-003f-1467-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:e07dc7be-b01e-004e-2c67-58583c000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.10.72
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 54141)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:171b22ba-701e-006f-5e6a-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:532c1da3-b01e-00f8-396a-583605000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.41.39
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 51736)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:fb3ddd15-701e-000b-336d-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:ad79f2b0-301e-007f-236d-58b92f000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[proxy] 0 / <- https://repo1.maven.org/maven2/ via ?
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 50459)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:049a3a7d-c01e-0043-1570-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:b4c0203b-001e-0026-3770-5822e3000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[proxy] 0 / <- https://repo1.maven.org/maven2/ via ?
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 64046)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:5acec940-601e-005a-2e72-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:e72c7b81-a01e-0030-0972-58c87b000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[proxy] 0 / <- https://repo1.maven.org/maven2/ via ?
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61023)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:5450911a-601e-0028-3275-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:095c659b-201e-007b-2675-58f976000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 114.66.59.150
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61632)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:06ad522b-901e-0063-7978-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:7c24b333-501e-00d8-6e78-589cb3000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 222.186.52.172
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 55984)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:720d3763-b01e-0060-4b7b-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:13414f07-e01e-0098-427b-5856d5000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 114.66.27.53
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 51492)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:ace34f43-401e-006a-1d7d-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:116801c4-601e-005d-757d-587c30000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.10.72
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 52610)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:b113760d-701e-0062-2180-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:648840a8-601e-0107-4880-582984000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 43.248.2.110
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 64949)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:1f1ec80a-401e-0006-2583-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:eb6bd67c-201e-0063-4b83-58eb4f000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 114.66.26.18
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49218)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:1e4eeab9-201e-0006-2a86-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:6ff7b26e-201e-002e-7886-5824a3000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.35.94
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 60745)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:a45a0688-a01e-0049-1b89-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:1e4ba716-a01e-00e4-1989-586465000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 43.248.2.110
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 55903)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:06161a28-201e-0074-0e8b-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:7c5a630f-501e-00d8-608b-589cb3000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.51.76
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 58039)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:5212b719-901e-002c-0b8e-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:0254a907-f01e-0070-418e-58cf43000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 114.66.59.150
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 54246)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:a68574dd-601e-005c-7f91-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:d781e3e4-e01e-0109-0891-580034000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.19.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 114.66.59.147
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 50519)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:15f5ae0b-c01e-003f-0194-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:c83525ea-e01e-0006-1494-588855000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 43.248.2.110
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59112)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:3e665735-b01e-0012-7897-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.135
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:b79d8ac8-301e-003d-4497-581ce0000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 110.42.36.88
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 62175)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:0b285151-201e-0016-7d99-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:09a8d3d0-401e-00fc-5e99-58bb02000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.133
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 103.184.47.58
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 56647)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.\nRequestId:07b18846-901e-004a-269c-5'
+[proxy] 404 / <- https://libraries.minecraft.net/ via 150.171.110.133
+[body] b'\xef\xbb\xbf<?xml version="1.0" encoding="utf-8"?><Error><Code>BlobNotFound</Code><Message>The specified blob does not exist.\nRequestId:991df8f4-d01e-0068-7a9c-580c6b000'
+[proxy] 404 / <- https://piston-data.mojang.com/maven/ via 150.171.110.135
+[body] b'<html>\n<head><title>404 Not Found</title></head>\n<body bgcolor="white">\n<center><h1>404 Not Found</h1></center>\n<hr><center>nginx</center>\n</body>\n</html>\n<!-- '
+[proxy] 404 / <- https://repo1.maven.org/maven2/ via 104.18.18.12
+[body] b'Found. Redirecting to https://bmclapidoc.bangbang93.com'
+[proxy] 302 / <- https://bmclapi2.bangbang93.com/ via 222.186.52.172
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 60788)
+Traceback (most recent call last):
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\Users\xingmiao\Documents\trae_projects\starcloud-minecraft-launcher\android\Starcloud.Launcher.Compose\tools\forward_proxy.py", line 81, in do_GET
+    self.send_error(502, last)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\http\server.py", line 491, in send_error
+    self.wfile.write(body)
+  File "C:\Users\xingmiao\AppData\Local\Programs\Python\Python312\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+ConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。
+----------------------------------------

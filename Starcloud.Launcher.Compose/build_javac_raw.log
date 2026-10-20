@@ -1,0 +1,302 @@
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:4: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xA8)
+ * è‡ªç ”ï¼ˆæ¸…æ´å®¤ï¼‰JNI å¥‘çº¦ç±»ï¼šlibbytehook.so åœ? JNI_OnLoad ä¸­ç» RegisterNatives
+                                       ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:5: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x97)
+ * æŠŠä¸‹åˆ? native æ–¹æ³•æ³¨å†Œåˆ°æœ¬ç±»ï¼Œæ³¨å†Œè¡¨ä»»ä¸?æ¡ç›®ç¼ºå¤±å³æŠ› NoSuchMethodError å¹?
+       ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:5: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ * æŠŠä¸‹åˆ? native æ–¹æ³•æ³¨å†Œåˆ°æœ¬ç±»ï¼Œæ³¨å†Œè¡¨ä»»ä¸?æ¡ç›®ç¼ºå¤±å³æŠ› NoSuchMethodError å¹?
+                                   ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:5: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xB6)
+ * æŠŠä¸‹åˆ? native æ–¹æ³•æ³¨å†Œåˆ°æœ¬ç±»ï¼Œæ³¨å†Œè¡¨ä»»ä¸?æ¡ç›®ç¼ºå¤±å³æŠ› NoSuchMethodError å¹?
+                                                                 ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:6: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ * è§¦å‘ CheckJNI abortï¼ˆå¯åŠ¨é“¾å´©æºƒæ ¹å› ï¼‰ã??
+                                   ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:6: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x82)
+ * è§¦å‘ CheckJNI abortï¼ˆå¯åŠ¨é“¾å´©æºƒæ ¹å› ï¼‰ã??
+                                    ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:8: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x8E)
+ * æ–¹æ³•åä¸ç­¾åå–è‡ª libbytehook.so å†…åµŒå¸¸é‡ï¼ˆRegisterNatives è¡¨çš„æ–¹æ³•åå­—é¢é‡ä¸?
+                                                                   ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:9: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ * JNI ç­¾åæè¿°ç¬¦ï¼‰ï¼Œéå¼•ç”¨ä»»ä½•ç¬¬ä¸‰æ–¹æºç ã?‚é™¤ nativeGetVersion è¢? JNI_OnLoad
+                                 ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:9: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAB)
+ * JNI ç­¾åæè¿°ç¬¦ï¼‰ï¼Œéå¼•ç”¨ä»»ä½•ç¬¬ä¸‰æ–¹æºç ã?‚é™¤ nativeGetVersion è¢? JNI_OnLoad
+                                                       ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:10: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xBA)
+ * ç›´æ¥æ³¨å†Œå¤–ï¼Œå…¶ä½™ä¸? bytehook C API è°ƒç”¨æ—¶æŒ‰éœ?æŸ¥æ‰¾ï¼Œå®¿ä¸»ä¸ä¸»åŠ¨è°ƒç”¨ã€?
+                ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:10: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ * ç›´æ¥æ³¨å†Œå¤–ï¼Œå…¶ä½™ä¸? bytehook C API è°ƒç”¨æ—¶æŒ‰éœ?æŸ¥æ‰¾ï¼Œå®¿ä¸»ä¸ä¸»åŠ¨è°ƒç”¨ã€?
+                                        ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:10: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x82)
+ * ç›´æ¥æ³¨å†Œå¤–ï¼Œå…¶ä½™ä¸? bytehook C API è°ƒç”¨æ—¶æŒ‰éœ?æŸ¥æ‰¾ï¼Œå®¿ä¸»ä¸ä¸»åŠ¨è°ƒç”¨ã€?
+                                                         ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:12: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ * æ³¨æ„ï¼šä¸è¦åœ¨æœ¬ç±»æ·»åŠ  System.loadLibrary é™æ?åˆå§‹åŒ–ï¼ŒåŠ è½½æ—¶æœºç”±å®¿ä¸»æ§åˆ¶ã€?
+                                        ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:12: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x82)
+ * æ³¨æ„ï¼šä¸è¦åœ¨æœ¬ç±»æ·»åŠ  System.loadLibrary é™æ?åˆå§‹åŒ–ï¼ŒåŠ è½½æ—¶æœºç”±å®¿ä¸»æ§åˆ¶ã€?
+                                                              ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:19: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x82)
+    /** ç‰ˆæœ¬ä¸²ï¼Œå¦? "1.0.10"ï¼›JNI_OnLoad é¦–ä¸ªæ³¨å†Œé¡? */
+               ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:19: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xB9)
+    /** ç‰ˆæœ¬ä¸²ï¼Œå¦? "1.0.10"ï¼›JNI_OnLoad é¦–ä¸ªæ³¨å†Œé¡? */
+                                            ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:22: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x82)
+    /** æ¶æ„ä¸²ï¼Œå¦? "arm64" */
+               ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:25: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xA8)
+    /** å½“å‰å·¥ä½œæ¨¡å¼ï¼šè‡ªåŠ?/æ‰‹åŠ¨ */
+                     ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:28: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+    /** è°ƒè¯•å¼?å…³çŠ¶æ€? */
+            ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:28: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x81)
+    /** è°ƒè¯•å¼?å…³çŠ¶æ€? */
+                 ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:31: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+    /** è®°å½•å¼?å…³çŠ¶æ€? */
+            ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:31: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x81)
+    /** è®°å½•å¼?å…³çŠ¶æ€? */
+                 ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:37: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x96)
+    /** åˆå§‹åŒ? hook æ¡†æ¶ï¼Œè¿”å›ç»“æœç  */
+            ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:43: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+    /** è®¾ç½®è°ƒè¯•å¼?å…? */
+               ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:43: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xB3)
+    /** è®¾ç½®è°ƒè¯•å¼?å…? */
+                 ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:46: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+    /** è®¾ç½®è®°å½•å¼?å…? */
+               ^
+app\src\main\java\com\bytedance\android\bytehook\ByteHook.java:46: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xB3)
+    /** è®¾ç½®è®°å½•å¼?å…? */
+                 ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:8: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x8E)
+ * Android é”®ç ä¸? GLFW é”®ç çš„åŒå‘ç´¢å¼•è¡¨ï¼Œä¿®æ”¹è‡ª PojavLauncherã€?
+               ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:8: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x82)
+ * Android é”®ç ä¸? GLFW é”®ç çš„åŒå‘ç´¢å¼•è¡¨ï¼Œä¿®æ”¹è‡ª PojavLauncherã€?
+                                                       ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:9: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x82)
+ * androidKeycodes æ•°ç»„æŒ‰å‡åºæ’åˆ—ï¼ŒæŸ¥æ‰¾ä½¿ç”¨äºŒåˆ†æœç´¢ã€?
+                                            ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:24: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xB0)
+        // Android é”®ç åˆ? GLFW é”®ç çš„æ˜ å°?
+                       ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:24: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x84)
+        // Android é”®ç åˆ? GLFW é”®ç çš„æ˜ å°?
+                                     ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:27: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+        // Escape é”?
+                   ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:30: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+        // 0-9 é”?
+                ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:44: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+        // æ–¹å‘é”?
+               ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:50: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+        // A-Z é”?
+                ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:82: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+        // Alt é”?
+                ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:86: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+        // Shift é”?
+                  ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:93: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+        add(KeyEvent.KEYCODE_DEL, LwjglGlfwKeycode.KEY_BACKSPACE); // é€?æ ?
+                                                                       ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:93: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xBC)
+        add(KeyEvent.KEYCODE_DEL, LwjglGlfwKeycode.KEY_BACKSPACE); // é€?æ ?
+                                                                         ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:107: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+        // ç¿»é¡µé”?
+               ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:114: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+        // Control é”?
+                    ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:129: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+        // Fn é”?
+               ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:178: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+    /** @return åœ¨æ•°ç»„ä¸­æŒ‰å?¼çº¿æ€§æŸ¥æ‰¾ç´¢å¼? */
+                        ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:178: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x95)
+    /** @return åœ¨æ•°ç»„ä¸­æŒ‰å?¼çº¿æ€§æŸ¥æ‰¾ç´¢å¼? */
+                                  ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:180: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x95)
+        // ä¸å»ºè®®åœ¨æ€§èƒ½æ•æ„ŸåŒºåŸŸä½¿ç”¨æ­¤æ–¹æ³?
+                                 ^
+app\src\main\java\com\starcloud\launcher\keycodes\EfficientAndroidLWJGLKeycode.java:195: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x82)
+     * æ¥æ”¶ GLFW é”®ç ï¼Œè¿”å›ç­‰ä»·çš„ Android é”®ç ã€?
+                                         ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:9: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xB0)
+ * Android é”®ç åˆ? GLFW é”®ç çš„æ˜ å°„è¡¨ã€?
+               ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:9: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x82)
+ * Android é”®ç åˆ? GLFW é”®ç çš„æ˜ å°„è¡¨ã€?
+                                ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:10: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ * è¾“å…¥æºæ˜¯ Android KeyEventï¼ˆC# å®¿ä¸»å‘é?? Android é”®ç ï¼‰ï¼Œ
+                                   ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:10: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x81)
+ * è¾“å…¥æºæ˜¯ Android KeyEventï¼ˆC# å®¿ä¸»å‘é?? Android é”®ç ï¼‰ï¼Œ
+                                    ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:11: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x84)
+ * è½¬æ¢ç»“æœäº¤ç»™ CallbackBridge çš? native å±‚ä½¿ç”¨ã??
+                             ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:11: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ * è½¬æ¢ç»“æœäº¤ç»™ CallbackBridge çš? native å±‚ä½¿ç”¨ã??
+                                           ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:11: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x82)
+ * è½¬æ¢ç»“æœäº¤ç»™ CallbackBridge çš? native å±‚ä½¿ç”¨ã??
+                                            ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:23: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x86)
+    /** å°? Android é”®ç è½¬æ¢ä¸? GLFW é”®ç ï¼ŒæœªçŸ¥é”®ç è¿”å›? KEY_UNKNOWNã€? */
+         ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:23: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xBA)
+    /** å°? Android é”®ç è½¬æ¢ä¸? GLFW é”®ç ï¼ŒæœªçŸ¥é”®ç è¿”å›? KEY_UNKNOWNã€? */
+                          ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:23: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x9E)
+    /** å°? Android é”®ç è½¬æ¢ä¸? GLFW é”®ç ï¼ŒæœªçŸ¥é”®ç è¿”å›? KEY_UNKNOWNã€? */
+                                              ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:23: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x82)
+    /** å°? Android é”®ç è½¬æ¢ä¸? GLFW é”®ç ï¼ŒæœªçŸ¥é”®ç è¿”å›? KEY_UNKNOWNã€? */
+                                                            ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:39: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+        // æ•°å­—é”? 0-9
+               ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:51: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+        // æ–¹å‘é”?
+               ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:57: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+        // å­—æ¯é”? A-Z
+               ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:98: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+        // ä¿®é¥°é”?
+               ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:111: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+        // åŠŸèƒ½é”?
+               ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:125: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+        // åŠŸèƒ½é”? F1-F12
+               ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:139: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x98)
+        // å°é”®ç›?
+               ^
+app\src\main\java\com\starcloud\launcher\keycodes\LwjglKeycodeMap.java:158: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+        // è¡¥å……æ˜ å°„ï¼ˆä¸ EfficientAndroidLWJGLKeycode ä¿æŒä¸?è‡´ï¼‰
+                                                      ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:21: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xA5)
+ * MC 26.x SDL åç«¯æ¸¸æˆæ´»åŠ¨ï¼ˆLWJGL â‰?3.4 çš? SDL çª—å£/è¾“å…¥é“¾ï¼‰ã€?
+                                ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:21: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x84)
+ * MC 26.x SDL åç«¯æ¸¸æˆæ´»åŠ¨ï¼ˆLWJGL â‰?3.4 çš? SDL çª—å£/è¾“å…¥é“¾ï¼‰ã€?
+                                      ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:21: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x82)
+ * MC 26.x SDL åç«¯æ¸¸æˆæ´»åŠ¨ï¼ˆLWJGL â‰?3.4 çš? SDL çª—å£/è¾“å…¥é“¾ï¼‰ã€?
+                                                       ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:23: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x8E)
+ * ä¸? SDLActivity é»˜è®¤å½¢æ?çš„å·®å¼‚ï¼?
+    ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:23: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ * ä¸? SDLActivity é»˜è®¤å½¢æ?çš„å·®å¼‚ï¼?
+                       ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:23: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x9A)
+ * ä¸? SDLActivity é»˜è®¤å½¢æ?çš„å·®å¼‚ï¼?
+                              ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:24: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x89)
+ * 1. libSDL3.so ä¸åœ¨ APK lib ç›®å½•ï¼ˆç»„ä»¶éƒ¨ç½²ç›®å½•ï¼‰ï¼Œoverride loadLibraries æŒ?
+                                                                     ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:25: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x84)
+ *    Intent extra ä¼ å…¥çš„å®Œæ•´è·¯å¾? System.loadï¼ˆonCreate æµç¨‹ loadLibraries å…ˆäº
+                             ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:26: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x84)
+ *    setupJNIï¼ŒåŠ è½½é¡ºåºæ­£å¥½å¡å¯¹ç‚¹ï¼šnativeSetupJNI çš? native å®ç°åœ? libSDL3.so å†…ï¼‰ï¼?
+                                              ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:26: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xA8)
+ *    setupJNIï¼ŒåŠ è½½é¡ºåºæ­£å¥½å¡å¯¹ç‚¹ï¼šnativeSetupJNI çš? native å®ç°åœ? libSDL3.so å†…ï¼‰ï¼?
+                                                           ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:26: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x9B)
+ *    setupJNIï¼ŒåŠ è½½é¡ºåºæ­£å¥½å¡å¯¹ç‚¹ï¼šnativeSetupJNI çš? native å®ç°åœ? libSDL3.so å†…ï¼‰ï¼?
+                                                                            ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:27: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x8C)
+ * 2. åŠ è½½åæ‰§è¡? FCL åŒæ¬¾å›¾å½¢åç«¯ä¿®å¤é“¾ï¼ˆintent extras æä¾›è·¯å¾„ï¼‰ï¼š
+             ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:29: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ *    native å†…éƒ¨ plain dlopen å¤±è´¥å›é?? escape å‘½åç©ºé—´ï¼‰â†’ setupExitTrap +
+                                   ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:29: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ *    native å†…éƒ¨ plain dlopen å¤±è´¥å›é?? escape å‘½åç©ºé—´ï¼‰â†’ setupExitTrap +
+                                    ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:31: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xB6)
+ *    launcher é›†æˆã€å¼ºåˆ? ES profileã€å•çª—å£å¤ç”¨ã€EGL å±æ?§å½’ä¸?åŒ–ã?Vulkan å¥æŸ„ä¸?è‡´ï¼‰ï¼?
+                      ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:31: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ *    launcher é›†æˆã€å¼ºåˆ? ES profileã€å•çª—å£å¤ç”¨ã€EGL å±æ?§å½’ä¸?åŒ–ã?Vulkan å¥æŸ„ä¸?è‡´ï¼‰ï¼?
+                                                  ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:31: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ *    launcher é›†æˆã€å¼ºåˆ? ES profileã€å•çª—å£å¤ç”¨ã€EGL å±æ?§å½’ä¸?åŒ–ã?Vulkan å¥æŸ„ä¸?è‡´ï¼‰ï¼?
+                                                      ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:31: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ *    launcher é›†æˆã€å¼ºåˆ? ES profileã€å•çª—å£å¤ç”¨ã€EGL å±æ?§å½’ä¸?åŒ–ã?Vulkan å¥æŸ„ä¸?è‡´ï¼‰ï¼?
+                                                         ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:31: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ *    launcher é›†æˆã€å¼ºåˆ? ES profileã€å•çª—å£å¤ç”¨ã€EGL å±æ?§å½’ä¸?åŒ–ã?Vulkan å¥æŸ„ä¸?è‡´ï¼‰ï¼?
+                                                                     ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:31: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x9B)
+ *    launcher é›†æˆã€å¼ºåˆ? ES profileã€å•çª—å£å¤ç”¨ã€EGL å±æ?§å½’ä¸?åŒ–ã?Vulkan å¥æŸ„ä¸?è‡´ï¼‰ï¼?
+                                                                          ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:32: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xB1)
+ * 3. JVM main ç”? C# å®¿ä¸»çº¿ç¨‹è¿è¡Œï¼ŒSDLThread çš? main() ä¸è·‘ nativeRunMainï¼?
+                ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:32: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x84)
+ * 3. JVM main ç”? C# å®¿ä¸»çº¿ç¨‹è¿è¡Œï¼ŒSDLThread çš? main() ä¸è·‘ nativeRunMainï¼?
+                                          ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:32: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x8C)
+ * 3. JVM main ç”? C# å®¿ä¸»çº¿ç¨‹è¿è¡Œï¼ŒSDLThread çš? main() ä¸è·‘ nativeRunMainï¼?
+                                                                     ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:33: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ *    åªé˜»å¡åˆ°æ¸¸æˆé€?å‡ºâ?”â?”è‹¥ç«‹å³è¿”å›ï¼ŒSDLMain.run ä¼šåœ¨ main è¿”å›å? finish æ•´ä¸ªæ´»åŠ¨ï¼?
+                ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:33: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ *    åªé˜»å¡åˆ°æ¸¸æˆé€?å‡ºâ?”â?”è‹¥ç«‹å³è¿”å›ï¼ŒSDLMain.run ä¼šåœ¨ main è¿”å›å? finish æ•´ä¸ªæ´»åŠ¨ï¼?
+                   ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:33: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ *    åªé˜»å¡åˆ°æ¸¸æˆé€?å‡ºâ?”â?”è‹¥ç«‹å³è¿”å›ï¼ŒSDLMain.run ä¼šåœ¨ main è¿”å›å? finish æ•´ä¸ªæ´»åŠ¨ï¼?
+                     ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:33: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x8E)
+ *    åªé˜»å¡åˆ°æ¸¸æˆé€?å‡ºâ?”â?”è‹¥ç«‹å³è¿”å›ï¼ŒSDLMain.run ä¼šåœ¨ main è¿”å›å? finish æ•´ä¸ªæ´»åŠ¨ï¼?
+                                                        ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:33: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x9B)
+ *    åªé˜»å¡åˆ°æ¸¸æˆé€?å‡ºâ?”â?”è‹¥ç«‹å³è¿”å›ï¼ŒSDLMain.run ä¼šåœ¨ main è¿”å›å? finish æ•´ä¸ªæ´»åŠ¨ï¼?
+                                                                        ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:34: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+ * 4. onCreate ç»“æŸç½? sReady æ ‡å¿—ï¼šC# ä¾§è½®è¯¢è¯¥æ ‡å¿—ç¡®è®¤ SDL_SetMainReady
+                   ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:35: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x80)
+ *    ï¼ˆnativeSetupJNI å†…è‡ªåŠ¨è°ƒç”¨ï¼‰å®Œæˆåå†æ‹‰èµ· JVMï¼Œæ¶ˆé™¤å¯åŠ¨ç«æ€ã??
+                                                       ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:35: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x82)
+ *    ï¼ˆnativeSetupJNI å†…è‡ªåŠ¨è°ƒç”¨ï¼‰å®Œæˆåå†æ‹‰èµ· JVMï¼Œæ¶ˆé™¤å¯åŠ¨ç«æ€ã??
+                                                        ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:40: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xA5)
+    /** C# ä¾§ä¼ å…? libSDL3.so å®Œæ•´è·¯å¾„çš? Intent extra é”? */
+               ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:40: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0x84)
+    /** C# ä¾§ä¼ å…? libSDL3.so å®Œæ•´è·¯å¾„çš? Intent extra é”? */
+                                   ^
+app\src\main\java\com\starcloud\launcher\SdlGameActivity.java:40: ´íÎó: ±àÂë GBK µÄ²»¿ÉÓ³Éä×Ö·û (0xAE)
+    /** C# ä¾§ä¼ å…? libSDL3.so å®Œæ•´è·¯å¾„çš? Intent extra é”? */
+                                                   ^
+100 ¸ö´íÎó
+½öÏÔÊ¾Ç° 100 ¸ö´íÎó£¨¹² 578 ¸ö£©£»ÈôÒª²é¿´¸ü¶à´íÎó£¬ÇëÊ¹ÓÃ -Xmaxerrs
