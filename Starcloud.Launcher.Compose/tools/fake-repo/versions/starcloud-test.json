@@ -1,0 +1,21 @@
+{
+  "id": "starcloud-test",
+  "type": "release",
+  "mainClass": "net.minecraft.client.main.Main",
+  "time": "2026-01-01T00:00:00+00:00",
+  "releaseTime": "2026-01-01T00:00:00+00:00",
+  "downloads": {
+    "client": {
+      "url": "http://127.0.0.1:8890/v1/objects/f19873704c119fbdd625c5eb85b63849ee0874fc/client.jar",
+      "sha1": "f19873704c119fbdd625c5eb85b63849ee0874fc",
+      "size": 4096
+    }
+  },
+  "assetIndex": {
+    "id": "test",
+    "url": "http://127.0.0.1:8890/assets/indexes/test.json",
+    "sha1": "",
+    "size": 0
+  },
+  "libraries": []
+}

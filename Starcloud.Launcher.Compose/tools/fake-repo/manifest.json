@@ -1,0 +1,14 @@
+{
+  "latest": {
+    "release": "starcloud-test",
+    "snapshot": "starcloud-test"
+  },
+  "versions": [
+    {
+      "id": "starcloud-test",
+      "type": "release",
+      "url": "http://127.0.0.1:8890/versions/starcloud-test.json",
+      "releaseTime": "2026-01-01T00:00:00+00:00"
+    }
+  ]
+}
