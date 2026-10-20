@@ -21,6 +21,9 @@ def upstreams(path: str):
         official = "https://libraries.minecraft.net" + path.replace("/maven/", "/", 1)
         central = "https://repo1.maven.org/maven2" + path.replace("/maven/", "/", 1)
         return [BMCLAPI + path, central, official]
+    # /v1/objects/：客户端 jar 与其它对象文件。官方优先，BMCLAPI 同路径可回退
+    if path.startswith("/v1/objects/"):
+        return ["https://piston-data.mojang.com" + path, BMCLAPI + path]
     if path.startswith("/assets/"):
         return [BMCLAPI + path, "https://resources.download.minecraft.net" + path]
     if path.startswith("/versions/"):
@@ -38,7 +41,9 @@ def fetch_upstream(url: str, timeout: int = 120):
     os.close(fd)
     try:
         r = subprocess.run(
-            [CURL, "-s", "-v", "--max-time", str(timeout), "-A", "starcloud-proxy",
+            # -4：本机 IPv6 到 Mojang CDN 会返回 BlobNotFound（实测），强制 IPv4
+            # -L：BMCLAPI 对 objects 是 302 跳转，跟随后再判定
+            [CURL, "-s", "-v", "-4", "-L", "--max-time", str(timeout), "-A", "starcloud-proxy",
              "-w", "%{http_code} %{remote_ip}", "-o", tmp, url],
             capture_output=True)
         txt = r.stdout.decode("ascii", "ignore")
