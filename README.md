@@ -54,6 +54,36 @@ adb logcat -s StarcloudWeb
 
 详见 `docs/2026-10-21-android-web-ui-shell-design.md`。
 
+## 真机走查
+
+设备接上后一条命令：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools/walkthrough.ps1
+# 无线调试：-Serial 192.168.x.x:5555
+```
+
+脚本：等设备 → `install -r` → `am start WebUiActivity` → 截屏 + 抓 `StarcloudWeb` 日志。
+
+**当前状态（2026-10-21）**：`adb devices` / `adb mdns services` 均为空，真机走查未执行。
+
+不依赖设备、已完成的验证：
+
+| 项 | 结果 |
+| --- | --- |
+| `gradle :app:assembleDebug` | BUILD SUCCESSFUL，APK 12.3 MB |
+| APK 里 `WebUiActivity` | 已注册（`exported=false`） |
+| APK 里 Web 资源 | 16 个（`assets/web/app/index.html` + bundle + 字体 + 图标） |
+| APK 里原生库 | `libstarcloudjvm.so` / `libstarcloudwindow.so` 均在 |
+| 桥协议（JS 侧） | Node 模拟原生跑通 request/reply、事件、错误码映射 |
+| React 产物 | Chromium 1280×800 无头渲染首页正常（mock 桥） |
+
+待真机确认：`versions.install`（组件包就位后装一个版本）、`launch.start`（拉起 SDL 活动）。
+
+渲染层调用 28 个桥方法，安卓已实现 8 个（catalog/install/launch/settings/saves 列表），
+其余 20 个（账号、内容库、Java、多人、Nova、插件、投影、备份删除、版本详情）返回
+`unsupported` —— 这些功能安卓端尚未实现，对应页面会走到错误分支。
+
 ## 约定
 
 - 版本号唯一来源：`Starcloud.Launcher.Compose/app/build.gradle.kts` 的 `versionName`。
